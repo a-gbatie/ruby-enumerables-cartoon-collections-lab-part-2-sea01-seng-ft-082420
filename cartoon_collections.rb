@@ -1,6 +1,5 @@
 def square_array(array)
-  new_array  = []
-  index = 0 
+  array.map { |element| element * element } 
   
 end
 
